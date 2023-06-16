@@ -724,7 +724,7 @@
           </div>
 
           <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+            <form  method="post" role="form" class="php-email-form">
               <div class="row">
                 <div class="form-group col-md-6">
                   <label for="name"> Votre Nom</label>
@@ -748,7 +748,7 @@
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
               </div>
-              <div class="text-center"><button type="submit">Envoyer</button></div>
+              <div class="text-center"><button type="submit" class="envoyer">Envoyer</button></div>
             </form>
           </div>
 
@@ -796,6 +796,34 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    <!-- on deactive le bouton envoyer tanque le formulaire php-email-form nest pas valide  -->
+    document.querySelector('.envoyer').disabled = true;
+    document.querySelector('.envoyer').style.cursor = 'not-allowed';
+    document.querySelector('.envoyer').style.opacity = '0.5';
+
+    document.querySelector('.php-email-form').addEventListener('input', function () {
+      if (document.querySelector('.php-email-form').checkValidity()) {
+        document.querySelector('.envoyer').disabled = false;
+        document.querySelector('.envoyer').style.cursor = 'pointer';
+        document.querySelector('.envoyer').style.opacity = '1';
+      } else {
+        document.querySelector('.envoyer').disabled = true;
+        document.querySelector('.envoyer').style.cursor = 'not-allowed';
+        document.querySelector('.envoyer').style.opacity = '0.5';
+      }
+    });
+  
+    document.querySelector('.envoyer').addEventListener('click', function () {
+   
+    event.preventDefault();
+
+      document.querySelector('.sent-message').style.display = 'block';
+
+    });
+    
+  </script>
 
 </body>
 
