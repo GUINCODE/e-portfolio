@@ -1127,3 +1127,37 @@ section {
   height: 300px !important;
 
 }
+
+.agile{
+  background-image: url("../img/agile.jpg") !important;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 100% !important;
+   height: 300px !important;
+}
+.leadership{
+  background-image: url("../img/leadership.jpg") !important;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 100% !important;
+   height: 300px !important;
+}
+.esprit-equipe{
+   background-image: url("../img/esprit-equipe.jpg") !important;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 100% !important;
+   height: 300px !important; 
+}
+
+.best-practice{
+   background-image: url("../img/best-practice.jpg") !important;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 100% !important;
+   height: 300px !important; 
+}
