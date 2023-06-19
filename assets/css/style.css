@@ -607,6 +607,11 @@ section {
   display: flex;
   justify-content: center;
 }
+.portfolio .portfolio-wrap:hover .subTitle{
+  opacity: 0;
+  transition: background-color 0.3s ease;
+  /* bottom: 0; */
+}
 
 .portfolio .portfolio-wrap .portfolio-links a {
   color: #fff;
@@ -1160,4 +1165,44 @@ section {
    background-position: center center;
    width: 100% !important;
    height: 300px !important; 
+}
+
+ .skillsX {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.tag {
+  background-color: #149ddd;
+  color: #fff;
+  font-size: 14px;
+  padding: 8px 16px;
+  margin: 8px;
+  border-radius: 20px;
+  text-transform: uppercase;
+  transition: background-color 0.3s ease;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+}
+
+.tag:hover {
+  background-color: #149ddd8a !important;
+  /* cursor: pointer; */
+}
+
+.subTitle{
+  font-size: 15px;
+  width: 100% !important;
+  color: #fff;
+  text-align: center;
+  margin-top: 0px !important;
+  margin-bottom: 0px !important;
+  padding: 4px !important;
+  background-color: #149ddd;
+  transition: background-color 0.3s ease;
+   opacity: 1;
+   
+
 }
