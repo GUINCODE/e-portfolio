@@ -15,7 +15,7 @@ body {
 }
 
 a {
-  color: #149ddd;
+  color: #60C6DD;
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ h6 {
   right: 120px;
   bottom: 15px;
   z-index: 996;
-  background: #149ddd;
+  background: #60C6DD;
   width: 40px;
   height: 40px;
   border-radius: 50px;
@@ -57,7 +57,7 @@ h6 {
   right: 15px;
   bottom: 15px;
   z-index: 997;
-  background: #149ddd;
+  background: #60C6DD;
   width: 100px;
   height: 40px;
   border-radius: 50px;
@@ -142,7 +142,7 @@ h6 {
 }
 
 #header .profile .social-links a:hover {
-  background: #149ddd;
+  background: #60C6DD;
   color: #fff;
   text-decoration: none;
 }
@@ -206,14 +206,14 @@ h6 {
 .nav-menu .active:focus,
 .nav-menu li:hover>a {
   text-decoration: none;
-  color: #149ddd;
+  color: #60C6DD;
 }
 
 .nav-menu a:hover i,
 .nav-menu .active i,
 .nav-menu .active:focus i,
 .nav-menu li:hover>a i {
-  color: #149ddd;
+  color: #60C6DD;
 }
 
 /* Mobile Navigation */
@@ -226,7 +226,7 @@ h6 {
   font-size: 24px;
   transition: all 0.4s;
   outline: none !important;
-  background-color: #149ddd;
+  background-color: #60C6DD;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -294,7 +294,7 @@ h6 {
   color: #fff;
   padding-bottom: 4px;
   letter-spacing: 1px;
-  border-bottom: 3px solid #149ddd;
+  border-bottom: 3px solid #60C6DD;
 }
 
 @media (min-width: 1024px) {
@@ -347,7 +347,7 @@ section {
   display: block;
   width: 50px;
   height: 3px;
-  background: #149ddd;
+  background: #60C6DD;
   bottom: 0;
   left: 0;
 }
@@ -383,7 +383,7 @@ section {
 .about .content ul i {
   font-size: 16px;
   margin-right: 5px;
-  color: #149ddd;
+  color: #60C6DD;
   line-height: 0;
 }
 
@@ -406,7 +406,7 @@ section {
 .facts .count-box i {
   display: block;
   font-size: 44px;
-  color: #149ddd;
+  color: #60C6DD;
   float: left;
   line-height: 0;
 }
@@ -476,7 +476,7 @@ section {
   width: 1px;
   height: 10px;
   transition: 0.9s;
-  background-color: #149ddd;
+  background-color: #60C6DD;
 }
 
 /*--------------------------------------------------------------
@@ -572,7 +572,7 @@ section {
 
 .portfolio #portfolio-flters li:hover,
 .portfolio #portfolio-flters li.filter-active {
-  color: #149ddd;
+  color: #60C6DD;
 }
 
 .portfolio #portfolio-flters li:last-child {
@@ -667,11 +667,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #60C6DD;
 }
 
 .portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #60C6DD;
 }
 
 .portfolio-details .portfolio-info {
@@ -725,10 +725,10 @@ section {
   justify-content: center;
   width: 54px;
   height: 54px;
-  background: #149ddd;
+  background: #60C6DD;
   border-radius: 50%;
   transition: 0.5s;
-  border: 1px solid #149ddd;
+  border: 1px solid #60C6DD;
 }
 
 .services .icon i {
@@ -742,7 +742,7 @@ section {
 }
 
 .services .icon-box:hover .icon i {
-  color: #149ddd;
+  color: #60C6DD;
 }
 
 .services .title {
@@ -757,7 +757,7 @@ section {
 }
 
 .services .title a:hover {
-  color: #149ddd;
+  color: #60C6DD;
 }
 
 .services .description {
@@ -851,11 +851,11 @@ section {
   height: 12px;
   background-color: #fff;
   opacity: 1;
-  border: 1px solid #149ddd;
+  border: 1px solid #60C6DD;
 }
 
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
-  background-color: #149ddd;
+  background-color: #60C6DD;
 }
 
 /*--------------------------------------------------------------
@@ -874,7 +874,7 @@ section {
 
 .contact .info i {
   font-size: 20px;
-  color: #149ddd;
+  color: #60C6DD;
   float: left;
   width: 44px;
   height: 44px;
@@ -925,14 +925,14 @@ section {
 }
 
 .contact .info .social-links a:hover {
-  background: #149ddd;
+  background: #60C6DD;
   color: #fff;
 }
 
 .contact .info .email:hover i,
 .contact .info .address:hover i,
 .contact .info .phone:hover i {
-  background: #149ddd;
+  background: #60C6DD;
   color: #fff;
 }
 
@@ -1020,7 +1020,7 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #149ddd;
+  background: #60C6DD;
   border: 0;
   padding: 10px 24px;
   color: #fff;
@@ -1242,7 +1242,7 @@ section {
 }
 
 .tag {
-  background-color: #149ddd;
+  background-color: #60C6DD;
   color: #fff;
   font-size: 14px;
   padding: 8px 16px;
@@ -1255,7 +1255,7 @@ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rg
 }
 
 .tag:hover {
-  background-color: #149ddd8a !important;
+  background-color: #60C6DD8a !important;
   /* cursor: pointer; */
 }
 
@@ -1267,18 +1267,18 @@ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rg
   margin-top: 0px !important;
   margin-bottom: 0px !important;
   padding: 4px !important;
-  background-color: #149ddd !important;
+  background-color: #60C6DD !important;
   opacity: 1;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .imageRounde{
   border-radius: 50%;
-  /* border: 2px solid #149ddd; */
+  /* border: 2px solid #60C6DD; */
   /* reduire la taille de l'image quand l'ecran  */
    width: 70%; 
    height: 70%;
-  box-shadow: #4795a89c 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: #60C6DD 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
 
@@ -1294,9 +1294,11 @@ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rg
   left: 0;
   width: fit-content;
   height: fit-content;
-  background-color: rgba(152, 147, 147, 0.272); /* Couleur de fond avec une opacité de 0.5 (50% transparent) */
+  width: 70%; 
+   height: 100%;
+  background-color: rgba(10, 10, 10, 0.272); /* Couleur de fond avec une opacité de 0.5 (50% transparent) */
   border-radius: 50%;
-  box-shadow: #149ddd6d 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: #4795a83a 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 /* lorsque l'écran a une largeur de 768px ou moins, l'image passe à 70% de large */
