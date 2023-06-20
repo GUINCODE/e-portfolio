@@ -149,6 +149,8 @@ h6 {
 
 #main {
   margin-left: 300px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 @media (max-width: 1199px) {
@@ -157,9 +159,10 @@ h6 {
   }
 
   #main {
-    margin-left: 0;
+    margin-left: 0px;
   }
 }
+
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -609,7 +612,7 @@ section {
 }
 .portfolio .portfolio-wrap:hover .subTitle{
   opacity: 0;
-  transition: background-color 0.3s ease;
+  transition: 0.3s ease;
   /* bottom: 0; */
 }
 
@@ -1166,6 +1169,70 @@ section {
    width: 100% !important;
    height: 300px !important; 
 }
+.hexagonale{
+   background-image: url("../img/hexagonale.png") !important;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 100% !important;
+   height: 300px !important; 
+}
+.pensee{
+   background-image: url("../img/pensee.png") !important;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 100% !important;
+   height: 300px !important; 
+}
+.ebola{
+   background-image: url("../img/portfolio/portfolio-1.jpg") !important;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 100% !important;
+   height: 500px !important; 
+}
+.alternance{
+   background-image: url("../img/portfolio/portfolio-4.jpg") !important;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 100% !important;
+   height: 500px !important; 
+}
+.stage{
+   background-image: url("../img/portfolio/portfolio-3.jpg") !important;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 100% !important;
+   height: 500px !important; 
+}
+.foodApp{
+   background-image: url("../img/portfolio/portfolio-5.jpg") !important;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 100% !important;
+   height: 500px !important; 
+}
+.greatCom{
+   background-image: url("../img/portfolio/portfolio-2.jpg") !important;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 100% !important;
+   height: 500px !important; 
+}
+.pharmacie{
+   background-image: url("../img/portfolio/portfolio-8.jpg") !important;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   width: 100% !important;
+   height: 500px !important; 
+}
 
  .skillsX {
   display: flex;
@@ -1192,7 +1259,7 @@ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rg
   /* cursor: pointer; */
 }
 
-.subTitle{
+.subTitle {
   font-size: 15px;
   width: 100% !important;
   color: #fff;
@@ -1200,9 +1267,7 @@ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rg
   margin-top: 0px !important;
   margin-bottom: 0px !important;
   padding: 4px !important;
-  background-color: #149ddd;
-  transition: background-color 0.3s ease;
-   opacity: 1;
-   
-
+  background-color: #149ddd !important;
+  opacity: 1;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }

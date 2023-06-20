@@ -106,59 +106,57 @@
                             <!-- <div class="swiper-wrapper align-items-center"> -->
 
                             <div class="swiper-slide ">
-                                <div class="best-practice">
+                                <div class="hexagonale">
 
                                 </div>
                             </div>
 
+                           <!--  -->
                         <div class="mt-5">
-                            <h3>Améliorer la qualité du code en développement logiciel</h3>
-                            <p style="text-align: justify;">L'amélioration de la qualité du code est un aspect essentiel du développement
-                                logiciel. Un code de qualité garantit la fiabilité, la maintenabilité et la performance d'une application, ce
-                                qui se traduit par une meilleure expérience utilisateur et une réduction des bugs.</p>
+                            <h3>L'architecture hexagonale : Une approche pour améliorer la qualité du code en développement logiciel</h3>
+                            <p style="text-align: justify;">L'architecture hexagonale est une approche de développement logiciel qui vise à
+                                améliorer la qualité du code en favorisant la modularité, la flexibilité et la testabilité. Elle offre une
+                                structure claire et permet de mieux répondre aux exigences évolutives des applications.</p>
                         
-                            <p style="text-align: justify;">Il existe plusieurs pratiques et techniques qui peuvent être mises en place pour
-                                améliorer la qualité du code :</p>
+                            <p style="text-align: justify;">L'architecture hexagonale se distingue par sa séparation nette des couches internes
+                                du système (le "domaine") des dépendances externes (les "adaptateurs"). Elle propose un modèle dans lequel le
+                                code métier est indépendant des frameworks, des bases de données et d'autres détails d'implémentation. Cela
+                                facilite les tests automatisés, la maintenance et les évolutions de l'application.</p>
+                        
+                            <p style="text-align: justify;">L'architecture hexagonale favorise également la mise en œuvre des principes SOLID.
+                                Chaque composant est conçu pour avoir une responsabilité unique et claire, ce qui facilite la compréhension et
+                                la modification du code. L'interface de chaque composant est définie en fonction des besoins du domaine, ce qui
+                                permet de construire un système flexible et adaptable.</p>
+                        
+                            <p style="text-align: justify;">En utilisant l'architecture hexagonale, les développeurs peuvent tirer parti des
+                                avantages suivants :</p>
                         
                             <ul>
-                                <li><strong>Utiliser des conventions de codage :</strong> L'utilisation de conventions de codage cohérentes
-                                    permet d'améliorer la lisibilité du code, facilite la collaboration au sein de l'équipe et facilite la
-                                    maintenance à long terme.</li>
-                                <li><strong>Appliquer les principes SOLID :</strong> Les principes SOLID (Single Responsibility, Open-Closed,
-                                    Liskov Substitution, Interface Segregation, Dependency Inversion) sont des principes de conception qui
-                                    favorisent la création de code modulaire, flexible et extensible. Ils aident à réduire la complexité et à
-                                    faciliter les modifications futures du code.</li>
-                                <li><strong>Pratiquer le TDD (Test-Driven Development) :</strong> Le TDD consiste à écrire les tests avant même
-                                    d'écrire le code de production. Cela permet de clarifier les attentes fonctionnelles et d'assurer une
-                                    couverture de test complète. Le TDD favorise également la conception modulaire et encourage une meilleure
-                                    architecture logicielle.</li>
-                                <li><strong>Effectuer des tests unitaires :</strong> Les tests unitaires sont des tests automatisés qui
-                                    vérifient le bon fonctionnement des différentes parties du code. Ils aident à détecter les erreurs
-                                    rapidement, à prévenir les régressions et à faciliter la refactorisation en toute confiance.</li>
-                                <li><strong>Effectuer des revues de code :</strong> Les revues de code sont des processus d'examen du code par
-                                    les pairs. Elles permettent de détecter les erreurs, de partager les connaissances et d'améliorer la qualité
-                                    globale du code. Les principes SOLID peuvent également être discutés et appliqués lors des revues de code.
-                                </li>
-                                <li><strong>Utiliser des outils d'analyse statique :</strong> Les outils d'analyse statique du code, tels que
-                                    les linters et les analyseurs de qualité, aident à identifier les violations des bonnes pratiques de
-                                    programmation et à s'assurer de la conformité aux normes de codage.</li>
-                                <li><strong>Effectuer une refacturation régulière :</strong> La refacturation consiste à restructurer le code
-                                    existant pour l'améliorer sans changer son comportement. Cela permet d'éliminer les duplications, de
-                                    simplifier les parties complexes et d'améliorer la lisibilité. Les tests unitaires jouent un rôle crucial
-                                    lors de la refacturation pour garantir que le comportement du code reste intact.</li>
+                                <li><strong>Modularité et réutilisabilité :</strong> L'architecture hexagonale permet de créer des modules
+                                    indépendants, ce qui facilite la réutilisation du code et la création de tests unitaires ciblés.</li>
+                                <li><strong>Séparation des préoccupations :</strong> La séparation entre le code métier et les détails
+                                    techniques permet de mieux organiser le code et de minimiser les effets de bord.</li>
+                                <li><strong>Tests automatisés efficaces :</strong> L'architecture hexagonale facilite l'écriture de tests
+                                    unitaires et de tests d'intégration, ce qui permet de détecter les problèmes rapidement et de garantir la
+                                    stabilité du système.</li>
+                                <li><strong>Facilité de maintenance :</strong> Grâce à sa structure claire et à sa modularité, l'architecture
+                                    hexagonale facilite la maintenance du code, même lors de changements importants.</li>
+                                <li><strong>Flexibilité et évolutivité :</strong> En réduisant les dépendances externes, l'architecture
+                                    hexagonale offre une plus grande flexibilité lors de l'ajout de nouvelles fonctionnalités ou de la
+                                    modification des règles métier.</li>
                             </ul>
                         
-                            <p style="text-align: justify;">En mettant en place ces pratiques, les équipes de développement peuvent améliorer
-                                significativement la qualité du code, réduire les erreurs et les bogues, faciliter la maintenance et accroître
-                                la productivité. Les principes SOLID et le TDD sont des approches spécifiques qui favorisent une meilleure
-                                structure et une meilleure testabilité du code.</p>
+                            <p style="text-align: justify;">Pour mettre en œuvre l'architecture hexagonale, il est essentiel de bien comprendre
+                                les besoins du domaine et de définir les interfaces en conséquence. Les adaptateurs externes, tels que les
+                                interfaces utilisateur ou les bases de données, doivent être conçus pour s'adapter aux besoins du domaine.</p>
                         
-                            <p style="text-align: justify;">Il est important de promouvoir une culture de l'excellence du code au sein de
-                                l'équipe, en encourageant l'apprentissage continu, le partage des bonnes pratiques et la recherche de
-                                l'amélioration continue. En investissant du temps et des efforts dans l'amélioration de la qualité du code, les
-                                développeurs peuvent contribuer à la création d'applications logicielles de haute qualité, répondant ainsi aux
-                                attentes des utilisateurs et aux exigences du marché.</p>
+                            <p style="text-align: justify;">En conclusion, l'architecture hexagonale est une approche puissante pour améliorer
+                                la qualité du code en développement logiciel. En favorisant la modularité, la séparation des préoccupations et
+                                les tests automatisés, elle permet de construire des applications plus flexibles, évolutives et faciles à
+                                maintenir. En adoptant cette approche, les développeurs peuvent contribuer à la création de systèmes logiciels
+                                de haute qualité, répondant ainsi aux besoins des utilisateurs et aux exigences du marché.</p>
                         </div>
+
 
 
 
@@ -175,8 +173,8 @@
                                 <li><a href="esprit-equipe.html">Esprit d'équipe</a></li>
                                 <li><a href="methode-agile.html">Methode Agile</a></li>
                                 <li><a href="leadership.html">Le leadership</a></li>
-                                <li>Les meuilleures pratiques en dev</li>
-                                <li><a href="hexagonale.html">Architecture Hexagonale</a></li>
+                                <li><a href="best-practice.html">Les meuilleures pratiques en dev</a></li>
+                                <li>Architecture Hexagonale</li>
                                 <li><a href="pensee.html">La pensée critique</a></li>
                             </ul>
                         </div>
@@ -203,9 +201,10 @@
 
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
             class="bi bi-arrow-up-short"></i></a>
-<a href="assets/pdf/cv-aguibou.pdf" download target="_blank">
-    <span class="hiring-me d-flex align-items-center justify-content-center text-white"><i class='bx bx-paperclip'></i> Mon CV</span>
-</a>
+    <a href="assets/pdf/cv-aguibou.pdf" download target="_blank">
+        <span class="hiring-me d-flex align-items-center justify-content-center text-white"><i
+                class='bx bx-paperclip'></i> Mon CV</span>
+    </a>
 
     <!-- Vendor JS Files -->
     <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
