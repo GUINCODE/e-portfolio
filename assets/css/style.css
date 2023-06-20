@@ -1274,11 +1274,9 @@ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rg
 
 .imageRounde{
   border-radius: 50%;
-  /* border: 2px solid #60C6DD; */
-  /* reduire la taille de l'image quand l'ecran  */
    width: 70%; 
    height: 70%;
-  box-shadow: #60C6DD 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  box-shadow: #60c6dd88 10px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 
 }
 
@@ -1287,19 +1285,7 @@ box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rg
   display: inline-block;
 }
 
-.imageOverlay::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: fit-content;
-  height: fit-content;
-  width: 70%; 
-   height: 100%;
-  background-color: rgba(10, 10, 10, 0.272); /* Couleur de fond avec une opacité de 0.5 (50% transparent) */
-  border-radius: 50%;
-  box-shadow: #4795a83a 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
-}
+
 
 /* lorsque l'écran a une largeur de 768px ou moins, l'image passe à 70% de large */
 @media (max-width: 768px) {
